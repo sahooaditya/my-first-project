@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 
-export default function ButtonAppBar() {
+export default function Header() {
   return (
     <Box sx={{ flexGrow: 1005 }}>
       <AppBar position="static">

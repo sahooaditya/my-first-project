@@ -2,7 +2,6 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import SnackbarContent from '@mui/material/SnackbarContent';
-// import SimpleContainer from './container';
 // import Container from '@mui/material/Container';
 
 const action = (
@@ -25,7 +24,7 @@ export default function LongTextSnackbar() {
   return (
     // <Container maxWidth="sm">
     <div style={{ paddingTop:"70px",paddingLeft:"100px"}}>
-    <Stack spacing={3} sx={{ maxWidth:800,maxHeight:800 }}>
+    <Stack spacing={3} sx={{ maxWidth:700,maxHeight:700 }}>
       <SnackbarContent message="Binance." action={action} style={{height:"150px"}} />
       <SnackbarContent
         message="Huobi
@@ -38,7 +37,6 @@ export default function LongTextSnackbar() {
         action={action2}
         style={{height:"150px"}}/>
     </Stack>
-    {/* <SimpleContainer/> */}
     </div>
     // </Container>
   );
